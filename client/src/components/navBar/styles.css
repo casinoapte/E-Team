@@ -1,0 +1,28 @@
+.navBar {
+    background-color: #222;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    width: 1500px;
+    margin-bottom: 200px;
+}
+
+.logo {
+    color: #9FFFCB;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.search {
+    color: #9FFFCB;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.search-input {
+    margin-top: 10px;
+    margin-left: -100px;
+    width: 700px;
+    border-radius: 25px;
+    padding-left: 10px;
+}

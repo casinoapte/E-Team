@@ -1,0 +1,27 @@
+.topics {
+    
+}
+
+.topic-col {
+    margin-top: -400px;
+    padding-left: 70px;
+}
+
+.topic-title {
+    color: #1d7a47;
+}
+
+.topic-btn {
+    border-radius: 25px;
+    padding: 3px 8px;
+    margin-top: 13px;
+    margin-left: 10px;
+    background-color: #9FFFCB;
+    border-width: 1px;
+    border-style: none;
+}
+
+.topic-btn:hover {
+    opacity: 30%;
+    transition-duration: .7s;
+}

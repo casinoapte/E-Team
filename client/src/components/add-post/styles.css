@@ -1,0 +1,213 @@
+body {
+    background-color: #DAE0E6;
+}
+
+form {
+    margin-left: -100px;
+}
+
+
+/* ////////////////// */
+ /* User Profile Box CSS  */
+/* ////////////////// */
+
+
+.profile-box {
+    width: 200px;
+    height: 300px;
+    margin-top: 153px;
+    margin-left: 420px;
+    margin-bottom: -400px;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:rgb(177, 176, 176);
+    border-width: 1px;
+}
+
+.underline {
+    border-top: 1px solid black;
+    margin-top: -20px;
+    width: 392px;
+    border-color: rgb(177, 176, 176);
+    z-index: 1;
+}
+
+.cover-img {
+    background-color: #9FFFCB;
+    height: 120px;
+    z-index: 0;
+}
+
+
+.profile-img {
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 110px;
+    height: 110px;
+    border-style: none;
+    border-color: rgb(177, 176, 176);
+    border-width: 1px;
+    padding: 5px 5px;
+    background-color: white;
+    z-index: 2;
+}
+
+.profile-username {
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+/* ////////////////// */
+ /* Create Post CSS  */
+/* ////////////////// */
+
+.dropdown {
+    width: 350px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    margin-left: -15px;
+    border-radius: 5px;
+}
+
+.post-body-title {
+    margin-top: 120px;
+    margin-bottom: -50px;
+    margin-left: -10px;
+    color: #222;
+}
+
+.post-title-underline {
+    margin-top: 40px;
+    margin-left: -15px;
+    color: white;
+
+}
+
+.post-box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(216, 214, 214);
+    border-radius: 25px;
+    height: 400px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.post-title {
+    margin-top: 30px;
+    width: 700px;
+    height: 40px;
+    margin-left: 20px;
+    border-color: rgb(245, 241, 241);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+/* Buttons  */
+
+.button-row {
+    background-color: rgb(245, 241, 241);
+    outline: 1px solid grey;
+    margin-top: 95px;
+    margin-left: 300px;
+    width: 700px;
+    outline: none;
+    height: 90px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.post-body-btn {
+    border-style: none;
+    margin: 10px;
+    margin-left: -10px;
+    padding: 5px;
+    background-color: rgb(245, 241, 241);
+    margin: 5px 10px;
+}
+
+.post-body-btn:hover {
+    background-color: rgba(182, 177, 177, 0.795);
+    transition-duration: .7s;
+}
+
+/* Body Row  */
+
+.post-body {
+    width: 700px;
+    height: 150px;
+    
+    padding-left: 15px;
+    border-color:rgb(245, 241, 241);
+}
+
+/* Topic Buttons  */
+
+.topic-btn-row {
+    margin-left: 275px;
+    margin-top: -100px;
+    position: fixed;
+    position: absolute;
+}
+
+.post-topic-btn {
+    margin-left: 10px;
+    border-radius: 25px;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    border-color: rgb(163, 161, 161);
+}
+
+.post-topic-btn:hover {
+    background-color: rgb(230, 235, 240);
+    transition-duration: .3
+}
+
+.post-topic-btn:focus {
+    background-color: rgb(61, 120, 196);
+    border-color: rgb(173, 197, 228);
+}
+
+/* Submit Post & Save Draft Button  */
+
+.draft-btn {
+    margin-left: 75px;
+    border-radius: 25px;
+    width: 110px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(53, 126, 223);
+    background-color: white;
+    border-color: rgb(53, 126, 223);
+}
+
+.draft-btn:hover {
+    background-color: rgb(230, 235, 240);
+    transition-duration: .3s;
+}
+
+.post-btn {
+    margin-left: 5px;
+    border-radius: 25px;
+    width: 80px;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    background-color:rgb(53, 126, 223);
+    border-color: rgb(192, 191, 191);
+}
+
+.post-btn:hover {
+    background-color: rgb(118, 161, 218); 
+    transition-duration: .3s;
+}
+
