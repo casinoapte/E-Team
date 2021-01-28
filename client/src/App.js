@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
 
 /* Nav Bars */
 
@@ -25,19 +25,13 @@ import LOL from './pages/lol/LOL'
 import Fortnite from './pages/fortnite/Fortnite'
 import Starcraft from './pages/starcraft/Starcraft'
 
-
-
-
-
-
-
 function App() {
   return (
 
-    <Router>
+    <BrowserRouter>
       <>
 
-        {/* SideBars */}
+        {/* Navigation Bars */}
 
         <Navbar />
         <Sidebar />
@@ -63,7 +57,7 @@ function App() {
 
       </>
 
-    </Router>
+    </BrowserRouter>
   );
 }
 

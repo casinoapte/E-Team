@@ -10,13 +10,14 @@ export default function ProfileTop() {
 
                     <div className="row">
 
-                        <div className="col-4">
+                        <div className="col-3">
+                            <img className="profile-pic" src={ProfilePic} />
+                        </div>
+
+                        <div className="col-4 offset-4">
                             <h1>Profile Info</h1>
                         </div>
 
-                        <div className="col-1 offset-2">
-                            <img className="profile-pic" src={ProfilePic} />
-                        </div>
 
                     </div>
                 </div>

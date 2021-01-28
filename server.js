@@ -12,11 +12,16 @@ app.use(express.json());
 app.use(routes);
 
 // Connect to the Mongo DB // 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/e-team",
+mongoose.connect(
+    process.env.MONGODB_URI || "mongodb://localhost/e-team",
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true,
+    },
+    (err) => {
+        if (err) throw (err);
+        console.log("MongoDB Connection Established")
     }
 );
 
