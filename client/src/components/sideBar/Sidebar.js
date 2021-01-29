@@ -96,7 +96,7 @@ const StyledNavItem = styled.div`
     margin-bottom: 0;   /* Puts space between NavItems */
     a {
         font-size: 2.7em;
-        color: ${(props) => props.active ? "white" : "#9FFFCB"};
+        color: ${(props) => props.active ? "white" : "#76d6a1"};
         :hover {
             opacity: 0.7;
             text-decoration: none; /* Gets rid of underlining of icons */

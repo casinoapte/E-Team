@@ -7,14 +7,25 @@
     margin-bottom: 200px;
 }
 
-.logo {
-    color: #9FFFCB;
-    margin-left: 6px;
-    margin-top: 10px;
+/* Top Left Element  */
+
+.GU-logo-navbar {
+    width: 60px;
+    height: auto;
+    margin-top: -7px;
+    margin-left: 8px;
 }
 
+.GU-logo-navbar:hover {
+    opacity: 70%;
+    transition-duration: .3;
+    cursor: pointer;
+}
+
+/* Search Bar Element  */
+
 .search {
-    color: #9FFFCB;
+    color: #76d6a1;
     margin-top: 10px;
     margin-left: 50px;
 }
@@ -25,4 +36,42 @@
     width: 700px;
     border-radius: 25px;
     padding-left: 10px;
+}
+
+/* Login & Register Element  */
+
+.auth-btn {
+    background-color: #b65fdb;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    width: 100px;
+    padding: 0px;
+    font-size: medium;
+    height: 30px;
+}
+
+.login-btn-navbar {
+    margin-left: 90px;
+    margin-right: 10px;
+}
+
+.register-btn-navbar {
+    background-color:#76d6a1;
+    color: #ffffff;
+}
+
+
+
+.login-btn-navbar:hover{
+    background-color: #904aad;
+    transition-duration: .3;
+    cursor: pointer;
+}
+
+.register-btn-navbar:hover {
+    background-color: #5da57d;
+    transition-duration: .3;
+    cursor: pointer;
 }

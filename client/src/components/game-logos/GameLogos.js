@@ -5,11 +5,11 @@ import { useParams } from "react-router-dom";
 
 // Images //
 
-import CSGO from '../../assets/logos/CSGO.jpg'
-import Dota from '../../assets/logos/Dota.jpg'
-import LOL from '../../assets/logos/LOL.png'
-import Fortnite from '../../assets/logos/Fortnite.jpg'
-import Starcraft from '../../assets/logos/Starcraft.png'
+import CSGO from '../../assets/game-logos/CSGO.jpg'
+import Dota from '../../assets/game-logos/Dota.jpg'
+import LOL from '../../assets/game-logos/LOL.png'
+import Fortnite from '../../assets/game-logos/Fortnite.jpg'
+import Starcraft from '../../assets/game-logos/Starcraft.png'
 
 
 export default function GameLogos() {

@@ -1,0 +1,27 @@
+#gu-logo-text {
+    margin-top: 150px;
+    margin-left: 25px;
+    color: white;
+    font-size: xx-large;
+}
+
+.GU-logo {
+    margin-top: 100px;
+    margin-left: -100px;
+    width: 200px;
+    height: auto;
+}
+
+.GU-text {
+    margin-top: -40px;
+    margin-left: -90px;
+    width: 500px;
+    height: auto;
+}
+
+#GU-under-text {
+    margin-top: -185px;
+    margin-left: -95px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #222;
+}

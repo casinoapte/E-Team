@@ -13,7 +13,7 @@ app.use(routes);
 
 // Connect to the Mongo DB // 
 mongoose.connect(
-    process.env.MONGODB_URI || "mongodb://localhost/e-team",
+    process.env.MONGODB_CONNECTION_STRING || "mongodb://localhost/e-team",
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
