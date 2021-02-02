@@ -25,6 +25,10 @@ export default function NavBar() {
         history.push("/register")
     }
 
+    const profile = () => {
+        history.push("/" + userData.user.username)
+    }
+
     const logout = () => {
         setUserData({
             token: undefined,
@@ -55,7 +59,8 @@ export default function NavBar() {
 
                        
                         <div className="col-3 offset-1">
-                            <button className="auth-btn logout-btn-navbar" onClick={logout}>Username</button>
+                            <button className="auth-btn profile-btn-navbar" onClick={profile}>{userData.user.username}</button>
+                            <button className="auth-btn logout-btn-navbar" onClick={logout}>Logout</button>
                         </div>
 
                     ) : (

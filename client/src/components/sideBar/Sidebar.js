@@ -33,7 +33,7 @@ class SideNav extends React.Component {
                     key: 2
                 },
                 {
-                    path: '/profile',
+                    path: '/:username',
                     name: 'profile',
                     css: 'fa fa-user-circle',
                     key: 3

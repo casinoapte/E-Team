@@ -38,7 +38,7 @@
     padding-left: 10px;
 }
 
-/* Login & Register Element  */
+/* Applies to All Buttons  */
 
 .auth-btn {
     background-color: #b65fdb;
@@ -52,6 +52,10 @@
     height: 30px;
 }
 
+/* /////////////////// */
+/* Logged Out Buttons */
+/* /////////////////// */
+
 .login-btn-navbar {
     margin-left: 90px;
     margin-right: 10px;
@@ -62,8 +66,6 @@
     color: #ffffff;
 }
 
-
-
 .login-btn-navbar:hover{
     background-color: #904aad;
     transition-duration: .3;
@@ -71,6 +73,32 @@
 }
 
 .register-btn-navbar:hover {
+    background-color: #5da57d;
+    transition-duration: .3;
+    cursor: pointer;
+}
+
+/* /////////////////// */
+/* Logged In Buttons */
+/* /////////////////// */
+
+.profile-btn-navbar {
+    margin-left: 90px;
+    margin-right: 10px;
+}
+
+.logout-btn-navbar {
+    background-color:#76d6a1;
+    color: #ffffff;
+}
+
+.profile-btn-navbar:hover{
+    background-color: #904aad;
+    transition-duration: .3;
+    cursor: pointer;
+}
+
+.logout-btn-navbar:hover {
     background-color: #5da57d;
     transition-duration: .3;
     cursor: pointer;

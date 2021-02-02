@@ -76,22 +76,25 @@ function App() {
         <UserContext.Provider value={{ userData, setUserData }}>
 
           {/* Navigation Bars */}
+
           <Navbar />
           <Sidebar />
 
           <Switch>
+
+            {/* Main Pages  */}
+
             <Route exact path="/" component={Home}></Route>
             <Route exact path="/test" component={Test}></Route>
             <Route exact path="/explore" component={Explore}></Route>
-            <Route exact path="/profile" component={Profile}></Route>
+            <Route exact path="/:username" component={Profile}></Route>
             <Route exact path="/login" component={Login}></Route>
             <Route exact path="/register" component={Register}></Route>
-
             <Route exact path="/stats" component={Stats}></Route>
             <Route exact path="/shop" component={Shop}></Route>
             <Route exact path="/settings" component={Settings}></Route>
 
-
+            {/* Specific Game Pages  */}
 
             <Route exact path="/CSGO" component={CSGO}></Route>
             <Route exact path="/League-Of-Legends" component={LOL}></Route>
