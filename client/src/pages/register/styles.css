@@ -1,0 +1,21 @@
+.GU-logo-register {
+    margin-top: -30px;
+    margin-left: -100px;
+    width: 200px;
+    height: auto;
+}
+
+#GU-text-register {
+    margin-top: 30px;
+    margin-left: 5px;
+    font-size: 80px;
+    color: white;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    text-shadow: 2px 2px rgb(70, 70, 70);
+}
+
+#GU-under-text-register{
+    margin-left: -15px;
+    margin-top: -25px;
+
+}

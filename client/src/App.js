@@ -15,6 +15,7 @@ import Home from './pages/home/Home'
 import Explore from './pages/explore/Explore'
 import Profile from './pages/profile/Profile'
 import Login from './pages/login/Login'
+import Register from './pages/register/Register'
 import Stats from './pages/stats/Stats'
 import Shop from './pages/shop/Shop'
 import Settings from './pages/settings/Settings'
@@ -84,6 +85,8 @@ function App() {
             <Route exact path="/explore" component={Explore}></Route>
             <Route exact path="/profile" component={Profile}></Route>
             <Route exact path="/login" component={Login}></Route>
+            <Route exact path="/register" component={Register}></Route>
+
             <Route exact path="/stats" component={Stats}></Route>
             <Route exact path="/shop" component={Shop}></Route>
             <Route exact path="/settings" component={Settings}></Route>

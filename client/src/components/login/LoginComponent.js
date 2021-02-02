@@ -10,10 +10,7 @@ export default function Login() {
 
     const history = useHistory()
 
-
     const [email, setEmail] = useState();
-
-    const [username, setUsername] = useState();
 
     const [password, setPassword] = useState();
 
@@ -45,7 +42,7 @@ export default function Login() {
     return (
 
         <div className="row">
-            <div className="col-3 offset-5">
+            <div className="col-3">
 
                 <form className="login-form" onSubmit={submit}>
 

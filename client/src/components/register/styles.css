@@ -1,0 +1,37 @@
+.login-form-register {
+    background-color: white;
+    height: 420px;
+    width: 370px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+
+.register-form-input {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DAE0E6;
+}
+
+.register-form-submit {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #76d6a1;
+    color: white;
+    border-color: #e6dae4;
+}

@@ -1,9 +1,7 @@
 import React from 'react'
 import './styles.css'
-import LoginComponent from '../../components/login/Login'
+import LoginComponent from '../../components/login/LoginComponent'
 import Logo from '../../assets/logo/GU-remote.png'
-import LogoText from '../../assets/logo/GU-text.png'
-
 
 
 export default function Login() {
@@ -14,12 +12,11 @@ export default function Login() {
                 <div className="row">
 
                     <div className="col-1">
-                        <img src={Logo} className="GU-logo" />
+                        <img src={Logo} className="GU-logo-login" />
                     </div>
 
-                    <div className="col-4 offset-1">
-
-                        <img src={LogoText} className="GU-text" />
+                    <div className="col-7">
+                        <h1 id="gu-text-login">Gamers United</h1>
                     </div>
 
 

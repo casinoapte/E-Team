@@ -5,22 +5,24 @@
     font-size: xx-large;
 }
 
-.GU-logo {
+.GU-logo-login {
     margin-top: 100px;
     margin-left: -100px;
     width: 200px;
     height: auto;
 }
 
-.GU-text {
-    margin-top: -40px;
-    margin-left: -90px;
-    width: 500px;
-    height: auto;
+#gu-text-login {
+    margin-top: 160px;
+    margin-left: 5px;
+    font-size: 80px;
+    color: white;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    text-shadow: 2px 2px rgb(70, 70, 70);
 }
 
 #GU-under-text {
-    margin-top: -185px;
+    margin-top: -175px;
     margin-left: -95px;
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     color: #222;
