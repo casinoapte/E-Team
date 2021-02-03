@@ -87,7 +87,7 @@ function App() {
             <Route exact path="/" component={Home}></Route>
             <Route exact path="/test" component={Test}></Route>
             <Route exact path="/explore" component={Explore}></Route>
-            <Route exact path="/:username" component={Profile}></Route>
+            <Route exact path="/profile" component={Profile}></Route>
             <Route exact path="/login" component={Login}></Route>
             <Route exact path="/register" component={Register}></Route>
             <Route exact path="/stats" component={Stats}></Route>

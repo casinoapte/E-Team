@@ -57,7 +57,7 @@ export default function NavBar() {
                 userData.user ?
                     (
 
-                       
+
                         <div className="col-3 offset-1">
                             <button className="auth-btn profile-btn-navbar" onClick={profile}>{userData.user.username}</button>
                             <button className="auth-btn logout-btn-navbar" onClick={logout}>Logout</button>
@@ -65,9 +65,9 @@ export default function NavBar() {
 
                     ) : (
                         <div className="col-3 offset-1">
-                        <button className="auth-btn login-btn-navbar" onClick={login}>Login</button>
-                        <button className="auth-btn register-btn-navbar" onClick={register}>Register</button>
-                    </div>
+                            <button className="auth-btn login-btn-navbar" onClick={login}>Login</button>
+                            <button className="auth-btn register-btn-navbar" onClick={register}>Register</button>
+                        </div>
                     )}
         </div>
 
