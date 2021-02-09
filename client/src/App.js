@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+import API from './utils/API'
 import UserContext from './contexts/UserContext'
 import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
 
@@ -37,25 +37,16 @@ function App() {
 
   useEffect(() => {
     const checkLoggedIn = async () => {
-
       let token = localStorage.getItem("auth-token");
-
       if (token === null) {
         localStorage.setItem("auth-token", "");
         token = "";
       }
-
-      const tokenRes = await axios.post(
-        "http://localhost:5000/auth/userRoutes/tokenIsValid",
-        null,
+      const tokenRes = await API.postToken(
         { headers: { "x-auth-token": token } }
       );
-
-      console.log(tokenRes.data);
-
       if (tokenRes.data) {
-        const userRes = await axios.get(
-          "http://localhost:5000/auth/userRoutes/",
+        const userRes = await API.getUsers(
           {
             headers: { "x-auth-token": token }
           });
@@ -69,7 +60,6 @@ function App() {
   }, [])
 
   return (
-
     <>
       <BrowserRouter>
 
@@ -105,7 +95,6 @@ function App() {
           </Switch>
 
         </UserContext.Provider>
-
 
       </BrowserRouter>
     </>

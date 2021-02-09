@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react'
 import { useHistory } from 'react-router-dom'
 import UserContext from '../../contexts/UserContext'
-import axios from 'axios'
+import API from '../../utils/API'
 
 import './styles.css'
 
@@ -16,6 +16,8 @@ export default function Login() {
 
     const { setUserData } = useContext(UserContext);
 
+    // For Creating New Account //
+
     const register = () => {
         history.push("/register")
     }
@@ -25,11 +27,8 @@ export default function Login() {
 
         const loginUser = { email, password }
 
-        const loginResponse = await axios.post
-            (
-                "http://localhost:5000/auth/userRoutes/login",
-                loginUser
-            )
+        const loginResponse = await API.loginUser(loginUser)
+        
         setUserData({
             token: loginResponse.data.token,
             user: loginResponse.data.user,
